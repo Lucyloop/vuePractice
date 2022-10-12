@@ -25,9 +25,9 @@ use syntax: {{ dataObject }}
 11. methods, computed, watch -> method is executed for every "re-render" cycle of the component. (use for events or data that really needs to be re-evaluated al the time). computed properties are only re-evaluated if one of their "used values" changed. (use for data that depends on other data). watch allows you ro run any code in reacton to some changed data(e.g send http request etc.(use for any non-data update you want to make) .
 12. dynamic styling
     12.1. :style is a specific thing for vue to change style correspondingly -> don't use in modern development
-    12.2. special syntax for css :class = "{}"
-    12.3. array syntax -> "['',{}]"
-
+    12.2. special syntax for css :class = "{}" -> only for set true or falses
+    12.3. array syntax -> "['',{}]" -> first '' is static class.
+ 
 # law
 1. methods is not good option to use as a dynamic variable
 # Js
