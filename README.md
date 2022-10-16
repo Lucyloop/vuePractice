@@ -28,6 +28,9 @@ use syntax: {{ dataObject }}
     12.2. special syntax for css :class = "{}" -> only for set true or falses
     12.3. array syntax -> "['',{}]" -> first '' is static class.
  
+13. v-if -> v-else, have to be in a sequence; v-show to replace v-if, v-else
+
+14. v-for : output items repeated
 # law
 1. methods is not good option to use as a dynamic variable
 # Js
